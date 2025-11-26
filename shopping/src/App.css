@@ -1,0 +1,145 @@
+body{
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none !important;
+}
+hr{
+    position: relative;
+    z-index: -1;
+}
+/* Header ///////////////////////////////////////////////////////////////////////////// */
+.Header{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.Header .left-nav a:hover{
+    font-weight: 600 !important;
+}
+.Header .right-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.Header .right-nav a{
+    border: 1px solid;
+    border-radius: 7px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    width: fit-content;
+}
+.Header a{
+    margin-bottom: 5px;
+}
+/* Home /////////////////////////////////////////////////////////////////////////////// */
+.outofHeader{
+    height: 72px;
+}
+.Home{
+    background: url('./images/natural\ view.jpg');
+    height: 80vh;
+    display: flex;
+    background-size: cover;
+    align-items: center;
+    color: white;
+    position:relative;
+    z-index: -5;
+}
+.Home::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.253);
+    z-index: -1;
+}
+.Home h6{
+    font-size:xx-large;
+}
+/* form  //////////////////////////////////////////////////////////////////////////////////////////// */
+.form{
+    padding-bottom: 30px;
+}
+.form input,.form textarea{
+    outline: none;
+    margin: 5px 0;
+    border: none;
+    box-shadow: 0px 0px 3px 0 gray;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+.form textarea{
+    height: 150px;
+}
+.form input:focus,.form textarea:focus{
+    box-shadow: 0px 0px 3px 4px #a6cfe7;
+}
+.form input[type="submit"]:focus{
+    box-shadow: none;
+}
+.form input:last-child{
+    background-color: gray;
+    padding: 5px 10px;
+    margin-top: 30px;
+    color: white;
+}
+.form label{
+    padding-top: 10px;
+}
+.form label a{
+    text-decoration: underline !important;
+}
+/* About ///////////////////////////////////////////////////////////////////// */
+.about p{
+    font-size: larger;
+    line-height: 1.7;
+}
+/* products //////////////////////////////////////////////////////////////////// */
+.products .text{
+    display: -webkit-box;
+    /* -webkit-line-clamp: 3; */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0 10px;
+}
+/* details //////////////////////////////////////////////////////////////////////// */
+.details{
+    padding-top: 50px;
+}
+/* added ////////////////////////////////////////////////////////////////////////////// */
+.done{
+    position: fixed;
+    z-index: 10000;
+    top:0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px -4px;
+    display: flex;
+    transition: .5s linear;
+
+}
+.done svg{
+    color: #1fc31f;
+    font-size: 20px;
+    margin-right: 4px;
+}
+/* cheackout//////////////////////////////////////////////////////////////////////////////// */
+.cheackout form input, .cheackout form select{
+    outline: none;
+    box-shadow: 0 0 3px 0px gray;
+    border-radius: 7px;
+    border: none;
+    padding: 10px;
+    margin: 10px 0 20px;
+}
+.cheackout form label{
+    font-weight: 500;
+}
