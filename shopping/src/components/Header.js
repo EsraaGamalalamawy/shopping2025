@@ -12,21 +12,21 @@ import { useSelector } from 'react-redux';
 function Header() {
   const counter=useSelector(state=>state.counter.count)
   var style1=({isActive})=>{
-    // var style2={
-    //   fontWeight:"unset",
-    //   color:"grey",  
-    //   padding:"0 5px",
-    // }
+    var style2={
+      fontWeight:"unset",
+      color:"grey",  
+      padding:"0 5px",
+    }
     return{
       color:isActive ? "white":"black",
       background:isActive ? "black":"white"
     }
   }
   var style2=({isActive})=>{
-    // var style1={
-    //   color:"black",
-    //   background:"white"
-    // }
+    var style1={
+      color:"black",
+      background:"white"
+    }
     return{
       fontWeight:isActive ? "600":"unset",
       color:isActive? "black":"grey",  
