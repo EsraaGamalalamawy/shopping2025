@@ -16,7 +16,6 @@ function App() {
       <BR>
         <Header/>
         <Routes>
-          <Route path='/' element={<Home/>}/>
           <Route path='/login' element={<Login/>} />
           <Route path='/products' element={<Products/>}/>
           <Route path='/about' element={<About/>}/>
@@ -25,7 +24,7 @@ function App() {
           <Route path='/cart' element={<Cart/>} />
           <Route path='/details' element={<DetailsPage/>} />
           <Route path='/checkout' element={<Checkout/>} />
-          <Route path='*' element={<h3>Page NotnFound</h3>} />
+          <Route path='*' element={<Home/>} />
         </Routes>
         <p className='bg-light text-center p-3 m-0'>Front End Developer || Esraa Gamal Alamawy</p>   
       </BR>
