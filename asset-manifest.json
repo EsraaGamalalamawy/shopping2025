@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shopping2025/static/css/main.0cd2f0c4.css",
-    "main.js": "/shopping2025/static/js/main.1427722a.js",
+    "main.css": "/shopping2025/static/css/main.5019da37.css",
+    "main.js": "/shopping2025/static/js/main.771c49fb.js",
     "static/js/453.eeed4cd4.chunk.js": "/shopping2025/static/js/453.eeed4cd4.chunk.js",
     "static/media/natural view.jpg": "/shopping2025/static/media/natural view.1ff61f86c48228b7da00.jpg",
     "static/media/womens.jpg": "/shopping2025/static/media/womens.94bd81a516c3d9cfd61e.jpg",
@@ -9,12 +9,12 @@
     "static/media/electronics.jpg": "/shopping2025/static/media/electronics.250f58cd2b1de3179b76.jpg",
     "static/media/mens.jpg": "/shopping2025/static/media/mens.e3ae43999a3adaf25d07.jpg",
     "index.html": "/shopping2025/index.html",
-    "main.0cd2f0c4.css.map": "/shopping2025/static/css/main.0cd2f0c4.css.map",
-    "main.1427722a.js.map": "/shopping2025/static/js/main.1427722a.js.map",
+    "main.5019da37.css.map": "/shopping2025/static/css/main.5019da37.css.map",
+    "main.771c49fb.js.map": "/shopping2025/static/js/main.771c49fb.js.map",
     "453.eeed4cd4.chunk.js.map": "/shopping2025/static/js/453.eeed4cd4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0cd2f0c4.css",
-    "static/js/main.1427722a.js"
+    "static/css/main.5019da37.css",
+    "static/js/main.771c49fb.js"
   ]
 }
